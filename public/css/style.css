@@ -1,0 +1,124 @@
+/*
+Theme Name: Walker Pacific
+Theme URI: http://walkerpacific.com
+Author: Asunder Studios
+Author URI: http://asunderstudios.com
+Description: Official website of Walker Pacific, Inc.
+Version: 0.1
+*/
+
+html, body {
+    height: 100%;
+    min-width: 679px;
+}
+
+body {
+    background-color: #fff;
+}
+
+p {
+    margin: 0 0 30px 0;
+}
+#contact-wrapper p {
+    margin: 15px 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    transition: color .4s linear;
+}
+
+a:hover {
+    color: #0e76bc;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    transition: color .4s linear;
+}
+
+#wrapper {
+    background: url('/images/background.png') 418px repeat-y;
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    min-width: 679px;
+}
+
+#top {
+    height: 115px;
+}
+
+#logo-wrapper {
+    background-color: #fff;
+    height: 127px;
+    width: 679px;
+    padding: 10px;
+    margin: auto;
+}
+
+#logo {
+    height: 127px;
+    width: 679px;
+    background: url('/images/walkerpacific.png') no-repeat;
+}
+
+#logo h1 {
+    font-family: 'EB Garamond', serif;
+    text-indent: -99999px;
+}
+
+#logo a {
+    height: 127px;
+    width: 679px;
+}
+
+article {
+    color: #b2b2b2;
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    line-height: 30px;
+    width: 300px;
+    float: left;
+    margin: 25px 0 0 75px;
+}
+
+#contact-wrapper {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    left: 90px;
+    margin: 25px 0;
+    width: 250px;
+    float: left;
+}
+
+#contact-wrapper h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#social-wrapper {
+    margin: 50px 0;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 10px;
+    color: #b2b2b2;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 0 0 20px;
+    height: 30px;
+    margin: -30px auto 0 auto;
+    line-height: 30px;
+    width: 800px;
+}
+footer a {
+    color: #b2b2b2;
+}

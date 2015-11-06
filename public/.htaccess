@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# BEGIN (mt) controlled settings
+<IfModule pagespeed_module>
+  ModPagespeed on
+</IfModule>
+# END (mt) controlled settings
