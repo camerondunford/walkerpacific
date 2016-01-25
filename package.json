@@ -1,0 +1,21 @@
+{
+  "name": "walkerpacific",
+  "version": "1.0.0",
+  "description": "Walker Pacific Consulting Services, Inc.",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camerondunford/walkerpacific.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camerondunford/walkerpacific/issues"
+  },
+  "homepage": "https://github.com/camerondunford/walkerpacific#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0"
+  }
+}
