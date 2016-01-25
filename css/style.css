@@ -65,7 +65,7 @@ a:hover {
 #logo {
     height: 127px;
     width: 679px;
-    background: url('images/walkerpacific.png') no-repeat;
+    background: url('../images/walkerpacific.png') no-repeat;
 }
 
 #logo h1 {
